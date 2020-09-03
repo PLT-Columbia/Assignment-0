@@ -36,6 +36,8 @@ you will find reviews inthat same repository in the form of a pull request.
 - Build clang and llvm by following the instructions in the 
 [Clang/LLVM website](http://clang.llvm.org/get_started.html).
     - You need to build Clang and LLVM from source in debug mode. It will take hours for building to finish.
+    - In this repository, we added LLVM source from [this commit](https://github.com/llvm/llvm-project/tree/d1be928d23fe6b6770be007c7fd0753ca4d17516). 
+    You may use this for all future assignemnts.
 
 #### Note: Here is a <ins>**non-exhaustive list**</ins> of problems you might face during the setup process.
 
