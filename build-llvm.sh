@@ -1,4 +1,3 @@
-git pull --recurse-submodules
 cd llvm-project
 mkdir build
 cd build
