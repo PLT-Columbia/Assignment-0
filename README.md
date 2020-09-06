@@ -55,7 +55,7 @@ Note that the GCloud VMs will have the same Ubuntu base image, and you can insta
 ### Setting Up GitHub Classroom
 
 Throughout the semester, we will be using [GitHub Classroom](https://classroom.github.com/) for programming assignment submissions. Please follow these steps to set up GitHub Classroom:
-* First, please create a Github account such that the username _exactly_ matches your UNI. Use this account for all programming assignment submissions in this class. We will be using the autograder in most cases; this makes the submissions tractable.
+* First, please create a GitHub account such that the username _exactly_ matches your UNI. Use this account for all programming assignment submissions in this class. We will be using the autograder in most cases; this makes the submissions tractable.
 * For each assignment, you will receive a GitHub classroom invitation through Gradescope/Courseworks.
 * Log in to GitHub with your UNI username, and accept the invitation. Once you accept the invitation, the repository will be created for you, and you will then have write access.
 
