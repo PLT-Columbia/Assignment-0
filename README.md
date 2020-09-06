@@ -94,7 +94,7 @@ Finally, here are some valuable suggestions:
 For this programming assignment, please follow these steps for submission:
 
 1. After building Clang and LLVM, rerun the `make` command.
-2. Redirect the output of this command to a file called **_\<uni\>.txt_**. where **_\<uni\>_** is your Columbia UNI number. For example, if your UNI is *foobar123*, then your file will be called **_\<uni\>_.txt**. Make sure that the **_\<uni\>_.txt** file lives inside the top-level directory of the repository. We will be grading this file, and as long as you have successfully completed the build and redirected the output to this file, you will receive full credit.
+2. Redirect the output of this command to a file called **_\<uni\>.txt_**. where **_\<uni\>_** is your Columbia UNI number. For example, if your UNI is *foobar123*, then your file will be called **_foobar123.txt_**. Make sure that the **_\<uni\>.txt_** file lives inside the top-level directory of the repository. We will be grading this file, and as long as you have successfully completed the build and redirected the output to this file, you will receive full credit.
 3. Push this file to the remote repository (assuming you have Git set up). Once your assignment has been graded, you will find feedback/reviews in that same repository through a pull request; this will be the modus operandi for submitting future assignments as well.
 
 
@@ -105,4 +105,4 @@ If you have any questions about this programming assignment, please post them in
 
 ## Disclaimer
 
-This project belongs to Columbia University. It may be freely used for educational purposes.
+This assignment belongs to Columbia University. It may be freely used for educational purposes.
