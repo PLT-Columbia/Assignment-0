@@ -60,9 +60,9 @@ Please follow these instructions for installing Git:
 3.  Add your newly-generated SSH keys to the GitHub account, as done [here](https://docs.github.com/en/enterprise/2.20/user/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).
 
 
-### Open GitHub account (if you do not already have one).
+### Creating a GitHub Account
 
-Create an account in [GitHub](http://www.github.com/), if you do not already have one. Note your GitHub username. Submit your uni and username with this assignment. Remember to submit all future assignments using the same username.
+If you do not already have a GitHub account, please create an account in [GitHub](http://www.github.com/). Remember to submit all future assignments using this GitHub username.
 
 
 ### Setting Up GitHub Classroom
@@ -72,7 +72,7 @@ Throughout the semester, we will be using [GitHub Classroom](https://classroom.g
 * Log in to GitHub with your UNI username, and accept the invitation. Once you accept the invitation, the repository will be created for you, and you will then have write access.
 
 ## Submission
-Write your UNI and GitHub username in the [uni.txt](uni.txt) file. Commit and push the file.
+Please add your Columbia UNI and GitHub username in the [uni.txt](uni.txt) file we have created, and make sure to commit and push this file in your final submission.
 
 ## Piazza
 
