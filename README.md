@@ -36,7 +36,7 @@ We have allocated Google Cloud (GCloud) credits for each student. Please email y
 
 <font color="red">**IMPORTANT:**</font> You must _shut down_ your instance when not in use. There are not enough credits to keep the server running continuously. Ensure it is shut down when not in use so that you do not lose credits unintentionally. There should be enough credits for about 850 hours of compute time.
 
-Note that the GCloud VMs will have the same Ubuntu base image, and you can install necessary libraries on top of LLVM Clang (see the subsection titled, "Building LLVM/Clang"). However, you may choose to use other open-source software to create your VMs. If you do so, please follow these steps:
+Note that the GCloud VMs will have the same Ubuntu base image, and you can install necessary libraries on top of LLVM Clang in the future. However, you may choose to use other open-source software to create your VMs. If you do so, please follow these steps:
 
 * Create Ubuntu 18.04.3 Virtual Machine by using either VMware Workstation 15 Player or Oracle VM VirtualBox to install Ubuntu 18.04.3.
     - At least 8 GB memory is required for the virtual machine, and 12 GB memory is recommended.
