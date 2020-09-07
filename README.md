@@ -5,8 +5,8 @@
 
 **Course&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:** COMS 4115 Programming Languages and Translators (Fall 2020)  
 **Website&nbsp;&nbsp;&nbsp;&nbsp;:** https://www.rayb.info/fall2020  
-**University&nbsp;:** Columbia University  
-**Instructor&nbsp;:** [Prof. Baishakhi Ray](https://www.rayb.info/)
+**University:** Columbia University  
+**Instructor:** [Prof. Baishakhi Ray](https://www.rayb.info/)
 
 
 ## Logistics
