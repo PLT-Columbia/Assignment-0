@@ -68,6 +68,7 @@ If you do not already have a GitHub account, please create an account in [GitHub
 ### Setting Up GitHub Classroom
 
 Throughout the semester, we will be using [GitHub Classroom](https://classroom.github.com/) for programming assignment submissions. Please follow these steps to set up GitHub Classroom:
+* Go to [GitHub Classroom](https://classroom.github.com/), signin and authorize your GitHub account for GitHub classroom. (Note: You have to do this step just once. This step is for authorizing your GitHub account for using Github classroom application.) 
 * For each assignment, you will receive a GitHub classroom invitation through Gradescope/Courseworks.
 * Log in to GitHub with your UNI username, and accept the invitation. Once you accept the invitation, the repository will be created for you, and you will then have write access.
 
