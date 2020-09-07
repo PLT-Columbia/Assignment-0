@@ -3,10 +3,10 @@
 
 ## Course Summary
 
-Course: COMS 4115 Programming Languages and Translators (Fall 2020)  
-Website: https://www.rayb.info/fall2020  
-University: Columbia University  
-Instructor: Prof. Baishakhi Ray
+**Course&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:** COMS 4115 Programming Languages and Translators (Fall 2020)  
+**Website&nbsp;&nbsp;&nbsp;&nbsp;:** https://www.rayb.info/fall2020  
+**University&nbsp;:** Columbia University  
+**Instructor&nbsp;:** [Prof. Baishakhi Ray](https://www.rayb.info/)
 
 
 ## Logistics
@@ -32,7 +32,7 @@ We have allocated Google Cloud (GCloud) credits for each student. Please email y
 	* Leave the defaults for the remaining options: `Compute Engine Default Service Account`, `Allow default access`, and `Unchecked boxes for Allow HTTP/HTTPS traffic`.
 4. Upon creation of the VM, SSH into the machine by clicking the SSH button next to the instance in Compute Engine, or add your SSH keys to log in using your own terminal. More information on access can be found [here](https://cloud.google.com/compute/docs/instances/connecting-to-instance).
 
-<p align="center"> <img src="vm-setup.png" alt="Virtual Machine Settings" /> </p>
+<p align="center"> <img src="vm-setup.png" alt="Virtual Machine Settings" width="70%"/> </p>
 
 <font color="red">**IMPORTANT:**</font> You must _shut down_ your instance when not in use. There are not enough credits to keep the server running continuously. Ensure it is shut down when not in use so that you do not lose credits unintentionally. There should be enough credits for about 850 hours of compute time.
 
