@@ -32,12 +32,9 @@ We have allocated Google Cloud (GCloud) credits for each student. Please email y
 	* Leave the defaults for the remaining options: `Compute Engine Default Service Account`, `Allow default access`, and `Unchecked boxes for Allow HTTP/HTTPS traffic`.
 4. Upon creation of the VM, SSH into the machine by clicking the SSH button next to the instance in Compute Engine, or add your SSH keys to log in using your own terminal. More information on access can be found [here](https://cloud.google.com/compute/docs/instances/connecting-to-instance).
 
-<p align="center">
-     <img src="vm-setup.png"
-          alt="Virtual Machine Settings" />
-</p>
+<p align="center"> <img src="vm-setup.png" alt="Virtual Machine Settings" /> </p>
 
-<font color="red">**IMPORTANT:**</font> you must _shut down_ your instance when not in use. There are not enough credits to keep the server running continuously. Ensure it is shut down when not in use so that you do not lose credits unintentionally. There should be enough credits for about 850 hours of compute time.
+<font color="red">**IMPORTANT:**</font> You must _shut down_ your instance when not in use. There are not enough credits to keep the server running continuously. Ensure it is shut down when not in use so that you do not lose credits unintentionally. There should be enough credits for about 850 hours of compute time.
 
 Note that the GCloud VMs will have the same Ubuntu base image, and you can install necessary libraries on top of LLVM Clang (see the subsection titled, "Building LLVM/Clang"). However, you may choose to use other open-source software to create your VMs. If you do so, please follow these steps:
 
@@ -52,13 +49,6 @@ Note that the GCloud VMs will have the same Ubuntu base image, and you can insta
     - `sudo apt install doxygen graphviz xz-utils git`
 
 
-### Setting Up GitHub Classroom
-
-Throughout the semester, we will be using [GitHub Classroom](https://classroom.github.com/) for programming assignment submissions. Please follow these steps to set up GitHub Classroom:
-* First, please create a GitHub account such that the username _exactly_ matches your UNI. Use this account for all programming assignment submissions in this class. We will be using the autograder in most cases; this makes the submissions tractable.
-* For each assignment, you will receive a GitHub classroom invitation through Gradescope/Courseworks.
-* Log in to GitHub with your UNI username, and accept the invitation. Once you accept the invitation, the repository will be created for you, and you will then have write access.
-
 ### Installing Git
 
 Version control with Git will be a large aspect of this course. You will be managing and submitting your programming assignments using Git. Since assignments are completed in the Linux environment, you will be able to access Git directly from the Linux shell.
@@ -69,34 +59,20 @@ Please follow these instructions for installing Git:
 2.  To improve your Git experience, you will need to set up SSH keys for the machine using Git, if you haven't done so. To set up SSH keys, please refer to this [page](https://docs.github.com/en/enterprise/2.20/user/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). Note that you only need to complete the subsection titled _Generating a new SSH key_ for Linux.
 3.  Add your newly-generated SSH keys to the GitHub account, as done [here](https://docs.github.com/en/enterprise/2.20/user/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).
 
-### Building LLVM/Clang
 
-LLVM provides compiler technologies designed for compile-time and runtime optimization. Clang is a C/C++ compiler front-end that leverages the LLVM back-end infrastructure. In this course, you will build new modules on top of the LLVM/Clang compiler framework.
+### Open GitHub account (if you do not already have one).
 
-You need to build LLVM and Clang by following the instructions found in the [LLVM/Clang website](http://clang.llvm.org/get_started.html). You can also run the `build-llvm.sh` shell script we have provided, which will execute all of the required commands for you.
-* Build LLVM and Clang from the LLVM source in debug mode. Note that it may take a few hours for building to complete, so we recommend you do not complete this at the last minute.
-* For this repository, we added the LLVM source from this [commit](https://github.com/llvm/llvm-project/tree/d1be928d23fe6b6770be007c7fd0753ca4d17516); you may use this reference for all future assignments.
+Create an account in [GitHub](http://www.github.com/), if you do not already have one. Note your GitHub username. Submit your uni and username with this assignment. Remember to submit all future assignments using the same username.
 
-Here is a <ins>**non-exhaustive list**</ins> of problems you might face during the setup process and how you would resolve them:
 
-* If you face a problem with `cmake` version compatibility, refer to this [solution](https://askubuntu.com/a/829311/).
-* Before building LLVM and Clang, add 8 GB of swap space in Ubuntu, as building LLVM and Clang will consume all of the memory. This [blog](https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-18-04/) shows how to add swap space. Run `sudo swapoff -a` to first deactivate the swap space before creating the swap file.
-* In case of out-of-memory issues during linking, add the `-DLLVM_USE_LINKER=gold` parameter in `cmake` to use the gold linker. The gold linker is faster and uses less memory.
-* If there is any error during the building of LLVM and Clang, you can simply rerun `make` to perform an incremental build.
+### Setting Up GitHub Classroom
 
-Finally, here are some valuable suggestions:
-* Use `make -j <cores>` to take advantage of multiple CPU cores (_e.g._, `make -j 4` uses 4 cores). Keep in mind, however, that adding more cores may consume more memory.
-* Feel free to play around (and familiarize yourself) with the [LLVM/Clang examples](http://clang.llvm.org/get_started.html#driver).
-
+Throughout the semester, we will be using [GitHub Classroom](https://classroom.github.com/) for programming assignment submissions. Please follow these steps to set up GitHub Classroom:
+* For each assignment, you will receive a GitHub classroom invitation through Gradescope/Courseworks.
+* Log in to GitHub with your UNI username, and accept the invitation. Once you accept the invitation, the repository will be created for you, and you will then have write access.
 
 ## Submission
-
-For this programming assignment, please follow these steps for submission:
-
-1. After building Clang and LLVM, rerun the `make` command.
-2. Redirect the output of this command to a file called **_\<uni\>.txt_**. where **_\<uni\>_** is your Columbia UNI number. For example, if your UNI is *foobar123*, then your file will be called **_foobar123.txt_**. Make sure that the **_\<uni\>.txt_** file lives inside the top-level directory of the repository. We will be grading this file, and as long as you have successfully completed the build and redirected the output to this file, you will receive full credit.
-3. Push this file to the remote repository (assuming you have Git set up). Once your assignment has been graded, you will find feedback/reviews in that same repository through a pull request; this will be the modus operandi for submitting future assignments as well.
-
+Write your UNI and GitHub username in the [uni.txt](uni.txt) file. Commit and push the file.
 
 ## Piazza
 
