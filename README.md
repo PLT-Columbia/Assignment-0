@@ -11,8 +11,8 @@
 
 ## Logistics
 - **Announcement Date:** Wednesday, September 9, 2020
-- **Due Date:** Sunday, September 20, 2020 by 11:59 PM. <font color="red">**No extensions!**</font>
-- **Total Points:** 10
+- **Due Date:** Sunday, September 13, 2020 by 11:59 PM. <font color="red">**No extensions!**</font>
+- **Total Points:** 5
 
 
 ## Assignment
