@@ -1,2 +1,2 @@
-uni:
-GitHub username:
+UNI: 
+GitHub Username: 
